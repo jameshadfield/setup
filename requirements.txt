@@ -1,0 +1,12 @@
+biopython
+scons
+seqmagick
+boto
+virtualenv
+virtualenvwrapper
+numpy
+scipy
+matplotlib
+ipython[notebook]
+pyzmq
+pygments
