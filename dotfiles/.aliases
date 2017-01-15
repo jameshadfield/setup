@@ -44,3 +44,7 @@ alias plistbuddy="/usr/libexec/PlistBuddy"
 
 # Alias GCC
 alias gcc="/usr/local/bin/gcc-6"
+
+# Load/Unload Adobe CC
+alias unloadCC="launchctl unload -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist"
+alias loadCC="launchctl load -w /Library/LaunchAgents/com.adobe.AdobeCreativeCloud.plist"

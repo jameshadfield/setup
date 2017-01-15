@@ -35,7 +35,7 @@ echo "Setup some paths"
 ln -f -s /usr/local/bin/raxmlHPC-PTHREADS-AVX /usr/local/bin/raxml
 
 echo "installing node"
-nvm install
+nvm install node
 # (nvm was installed by homebrew)
 
 echo "Setup Ruby environment, including these gems:"
@@ -55,3 +55,5 @@ apm install linter-eslint
 apm install highlight-selected
 apm install minimap
 apm install merge-conflicts
+
+source ./systemp_prefs.sh

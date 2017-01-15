@@ -9,7 +9,7 @@ tap 'homebrew/dupes'
 brew 'rsync'
 brew 'git'
 brew 'gcc'
-brew ‘watch’
+brew 'watch'
 
 # Install GUI apps
 cask 'atom'
@@ -23,13 +23,13 @@ cask 'skype'
 cask 'slack'
 cask 'transmit'
 cask 'vlc'
-cask './formula/bbedit.rb'
+# cask './formula/bbedit.rb'
 cask 'iterm2'
 cask 'rstudio'
 cask 'spotify'
 
 # Install java
-# cask 'java'
+cask 'java'
 
 # Install ruby (ruby-build allows multiple installs)
 brew 'rbenv'
