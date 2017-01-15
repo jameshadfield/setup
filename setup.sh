@@ -53,3 +53,5 @@ echo "Setting up Atom"
 apm install linter
 apm install linter-eslint
 apm install highlight-selected
+apm install minimap
+apm install merge-conflicts
